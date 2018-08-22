@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lgurl</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    LJLog(@"navigationAction.request:%@",navigationAction.request);
+    LJLog(@"baseURL:%@",navigationAction.request.URL.baseURL);
+    LJLog(@"absoluteString:%@",navigationAction.request.URL.absoluteString);
+    LJLog(@"relativeString:%@",navigationAction.request.URL.relativeString);
+    LJLog(@"absoluteURL:%@",navigationAction.request.URL.absoluteURL);
+    LJLog(@"scheme:%@",navigationAction.request.URL.scheme);
+    LJLog(@"resourceSpecifier:%@",navigationAction.request.URL.resourceSpecifier);
+    LJLog(@"relativeString:%@",navigationAction.request.URL.relativeString);
+    LJLog(@"host:%@",navigationAction.request.URL.host);
+    LJLog(@"port:%@",navigationAction.request.URL.port);
+    LJLog(@"user:%@",navigationAction.request.URL.user);
+    LJLog(@"password:%@",navigationAction.request.URL.password);
+    LJLog(@"path:%@",navigationAction.request.URL.path);
+    LJLog(@"fragment:%@",navigationAction.request.URL.fragment);
+    LJLog(@"query:%@",navigationAction.request.URL.query);
+    LJLog(@"relativePath:%@",navigationAction.request.URL.relativePath);
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4E1F9B7D-8289-466E-B0E5-E3D215A4E261</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>打印URL细节</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

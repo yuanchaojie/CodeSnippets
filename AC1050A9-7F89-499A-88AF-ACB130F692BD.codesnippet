@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lableSpace</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    /* 设置提示文字的行间距 */
+    _detailTipLabel.numberOfLines=0;
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];
+    paragraphStyle.lineSpacing = 8;
+    NSDictionary *attributes = @{ NSFontAttributeName:font_14, NSParagraphStyleAttributeName:paragraphStyle};
+    _detailTipLabel.attributedText = [[NSAttributedString alloc]initWithString:_detailTipLabel.text attributes:attributes];
+_detailTipLabel.textAlignment=NSTextAlignmentCenter;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AC1050A9-7F89-499A-88AF-ACB130F692BD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>设置label行间距</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
